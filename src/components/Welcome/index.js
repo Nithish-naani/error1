@@ -3,7 +3,7 @@ import {Component} from 'react'
 import './index.css'
 
 class Welcome extends Component {
-  state = {isSubscribed: true}
+  state = {isSubscribed: false}
 
   clickBtn = () => {
     this.setState(prevState => ({isSubscribed: !prevState.isSubscribed}))
